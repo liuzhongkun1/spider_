@@ -18,7 +18,7 @@ def getResp():
         "idx": 1,  # 获取前一天的图片
         "n": 1
     })
-    print(resp)
+    # print(resp)
     return resp.json()
 
 
